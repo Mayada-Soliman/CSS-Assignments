@@ -1,0 +1,22 @@
+div {
+    text-transform: capitalize;
+    padding: 10px;
+    margin: auto;
+    width: fit-content;
+    display: block;
+    font-size: 37px;
+    border: 5px dotted orangered;
+    margin: 20px auto;
+}
+
+.one {
+    font-size: 2.5rem;
+}
+
+.two {
+    font-size: 2rem;
+}
+
+.three {
+    font-size: 1.5rem;
+}

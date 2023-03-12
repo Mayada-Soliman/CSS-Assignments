@@ -1,0 +1,44 @@
+div {
+    width: 400px;
+    margin: 30px auto;
+    background-color: #eee;
+    padding: 15px;
+    position: relative;
+    border-width: 2px;
+    border-color: red skyblue;
+    border-style: solid;
+}
+
+span {
+    background-color: skyblue;
+    position: absolute;
+    padding: 3px;
+    text-align: center;
+}
+
+
+.top-left {
+    top: -7px;
+    left: -7px;
+    border-right: 2px solid red;
+}
+
+
+
+.bottom-left {
+    bottom: -7px;
+    left: -7px;
+    border-right: 2px solid red;
+}
+
+.top-right {
+    top: -7px;
+    right: -7px;
+    border-left: 2px solid red;
+}
+
+.bottom-right {
+    bottom: -7px;
+    right: -7px;
+    border-left: 2px solid red;
+}

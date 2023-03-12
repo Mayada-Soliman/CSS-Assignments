@@ -1,0 +1,36 @@
+table {
+    width: 700px;
+    margin: 20px auto;
+
+}
+
+img {
+    width: 50px;
+}
+
+thead {
+    background-color: #404040;
+    color: white;
+    text-align: center;
+
+
+}
+
+tbody {
+    background-color: #eee;
+    text-align: center;
+}
+
+
+.view {
+    background-color: #03a9f4;
+    color: white;
+    border: 3px solid #03a9f4;
+}
+
+.delete {
+    background-color: #e91e63;
+    color: white;
+    border: 3px solid #e91e63;
+
+}

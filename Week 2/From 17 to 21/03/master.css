@@ -1,0 +1,23 @@
+div {
+    background-color: #ddd;
+    width: 400px;
+    font-size: 20px;
+    padding: 20px;
+    margin: 40px;
+}
+
+.one {
+    white-space: normal;
+}
+
+.two {
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+
+.three {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

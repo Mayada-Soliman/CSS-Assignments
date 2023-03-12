@@ -1,0 +1,31 @@
+.main-one {
+    border: 3px solid #ff6500e8;
+    margin: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+.one {
+    background-color: #d3cdcd;
+    padding: inherit;
+    border: inherit;
+    font-family: arial;
+    margin: 20px 20px;
+}
+
+.main-two {
+    border: 3px solid hsl(168deg 87% 31%);
+    margin: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+.two {
+    background-color: #d3cdcd;
+    padding: inherit;
+    border: inherit;
+    font-family: arial;
+    margin: 20px 20px;
+}

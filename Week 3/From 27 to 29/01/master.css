@@ -1,0 +1,40 @@
+.parent {
+    width: 800px;
+    background-color: powderblue;
+    margin: 20px auto;
+
+}
+
+.one,
+.two,
+.three,
+.four {
+    background-color: mediumturquoise;
+    padding: 20px 0px;
+    margin-left: 15px;
+    margin-top: 15px;
+    float: left;
+    text-align: center;
+    color: white;
+}
+
+.clear {
+    clear: both;
+}
+
+.one {
+    width: calc(100% - 30px);
+}
+
+.two {
+    width: calc((100% - 60px) / 3);
+}
+
+.three {
+    width: calc((100% - 45px) / 2);
+}
+
+.four {
+    width: calc((100% - 75px)/4);
+    margin-bottom: 15px;
+}

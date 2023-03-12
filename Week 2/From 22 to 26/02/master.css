@@ -1,0 +1,29 @@
+div {
+    text-transform: capitalize;
+    padding: 10px;
+    margin: auto;
+    width: fit-content;
+    display: block;
+    font-size: 37px;
+}
+
+
+.one {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    background-color: hwb(170 5% 9% / 0.705);
+    border: 8px solid white;
+}
+
+.two {
+    font-family: 'Cairo', sans-serif;
+    font-weight: 700;
+    background-color: rgba(13, 232, 196, 0.89);
+}
+
+.three {
+    font-family: 'Jomhuria', cursive;
+    font-weight: 400;
+    border: 8px solid white;
+    background-color: rgba(13, 232, 196, 0.89);
+}

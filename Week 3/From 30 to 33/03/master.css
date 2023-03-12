@@ -1,0 +1,18 @@
+.one {
+    background-color: #eee;
+    list-style-type: none;
+    margin: 20px 200px;
+    padding: 20px;
+
+}
+
+li {
+    background-color: white;
+    margin: 5px;
+    padding: 10px;
+}
+
+.two {
+    list-style-position: inside;
+
+}

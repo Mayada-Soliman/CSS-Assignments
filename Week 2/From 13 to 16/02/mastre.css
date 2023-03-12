@@ -1,0 +1,14 @@
+.main div {
+    color: white;
+    background-color: rgb(190, 14, 14);
+    max-width: 400px;
+    height: 30px;
+    padding: 5px;
+    margin: 15px;
+    line-height: 30px;
+    width: fit-content;
+}
+
+.four {
+    overflow: hidden;
+}
