@@ -1,0 +1,36 @@
+.parent div {
+    width: 100px;
+    height: 100px;
+    background-color: #eee;
+    display: inline-block;
+    position: relative;
+    margin: 30px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 0px 0px #2196f3,
+        -5px -5px 0px 0px #e91e63;
+    border: 2px solid black;
+    counter-increment: count;
+
+
+}
+
+.parent div::before {
+    content: counter(count);
+    background-color: black;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 50%;
+    position: absolute;
+    left: 35px;
+    bottom: 90px;
+    font-family: sans-serif;
+}
+
+.parent div::after {
+    content: attr(data);
+    color: black;
+    position: absolute;
+    line-height: 100px;
+    left: 25px;
+    font-family: sans-serif;
+}

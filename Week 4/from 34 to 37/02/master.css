@@ -1,0 +1,19 @@
+div {
+    background-color: #eee;
+    margin: 20px auto;
+    padding: 30px;
+    width: fit-content;
+    position: relative;
+
+}
+
+div::first-letter {
+    position: absolute;
+    background-color: #ff0000;
+    padding: 20px;
+    margin-left: -55px;
+    color: white;
+    font-weight: bolder;
+
+
+}

@@ -1,0 +1,83 @@
+.parent {
+    width: 550px;
+    border: 2px solid #ddd;
+    position: relative;
+    padding: 10px;
+    margin: 20px auto;
+    overflow: hidden;
+
+}
+
+.one,
+.two {
+    width: 262px;
+    height: 350px;
+    background-color: #eeeeee;
+    float: left;
+    position: relative;
+
+}
+
+.one {
+    margin-right: 25px;
+}
+
+.child-one {
+    width: 200px;
+    height: 50px;
+    background-color: #03a9f4;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+    text-align: center;
+    position: absolute;
+    top: 25px;
+    left: 31px;
+    border-radius: 10px;
+    line-height: 50px;
+    font-family: sans-serif;
+
+}
+
+.child-two {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: #ddd;
+    position: absolute;
+    top: 112px;
+    left: 31px;
+}
+
+.child-two::before {
+    content: attr(data-person);
+    position: absolute;
+    font-size: 30px;
+    font-family: sans-serif;
+    top: 83px;
+    left: 71px;
+    font-weight: bolder;
+
+}
+
+.or {
+    background-color: #03a9f4;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    top: 175px;
+    left: 275px;
+    text-align: center;
+}
+
+.or::before {
+    content: "";
+    width: 2px;
+    height: 349px;
+    background-color: #03a9f4;
+    position: absolute;
+    top: -165px;
+    left: 10px;
+}

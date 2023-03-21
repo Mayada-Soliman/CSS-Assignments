@@ -1,0 +1,14 @@
+div {
+    background-color: #efefef;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    border-radius: 10px 50px 10px 50px;
+    box-shadow: 0px 2px 5px 5px #858585 inset;
+
+
+}
