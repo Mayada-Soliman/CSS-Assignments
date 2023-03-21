@@ -1,0 +1,23 @@
+.main div {
+    background-color: rgb(223, 211, 211);
+    width: 400px;
+    height: 20px;
+    margin: 20px;
+    padding: 5px;
+    line-height: 20px;
+
+}
+
+.one {
+    border-left: 5px solid rgb(223, 2, 105);
+    outline: 7px solid rgb(223, 211, 211);
+}
+
+.two {
+    visibility: hidden;
+}
+
+.three {
+    border-left: 5px solid #038f60;
+    outline: 7px solid rgb(223, 211, 211);
+}
