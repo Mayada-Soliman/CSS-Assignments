@@ -1,0 +1,70 @@
+:root {
+    --background-color: #ddd;
+    --padding: 10px;
+    --margin: 10px;
+}
+
+
+.page {
+    background-color: #eee;
+    overflow: hidden;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo,
+.links {
+    background-color: var(--background-color);
+    margin: var(--margin);
+    padding: var(--padding);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 70px;
+
+}
+
+.links {
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+.links li {
+    list-style-type: none;
+    margin-left: 7px;
+}
+
+.main-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content,
+.sidebar {
+    background: var(--background-color);
+    margin: var(--margin);
+    padding: var(--padding);
+    height: 350px
+}
+
+.sidebar {
+    width: calc(25%);
+}
+
+.content {
+    width: calc(75%);
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--background-color);
+    margin: var(--margin);
+    padding: var(--padding);
+}

@@ -1,0 +1,28 @@
+div {
+    background-color: #eee !important;
+    text-align: center !important;
+    margin: 30px auto !important;
+    width: 400px;
+    border: none !important;
+    text-align: center;
+    padding: 0 !important;
+    position: relative;
+    height: 80px;
+
+}
+
+p {
+    visibility: hidden;
+
+}
+
+div::after {
+    content: "Elzero";
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    position: absolute;
+    top: 31px;
+    left: 170px;
+}
