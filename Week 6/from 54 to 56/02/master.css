@@ -1,0 +1,28 @@
+ input {
+     width: 600px;
+     margin: 10px auto;
+     padding: 20px;
+     background-color: #eee;
+     border: none;
+     caret-color: red;
+     display: flex;
+ }
+
+ div {
+     position: relative;
+ }
+
+ input:focus {
+     outline: none;
+ }
+
+ div::before {
+     content: "";
+     position: absolute;
+     width: 640px;
+     background-color: red;
+     top: 55px;
+     left: 145px;
+     height: 3px;
+     background-image: linear-gradient(to right, #f44336 50%, #009688 50%);
+ }
